@@ -1,0 +1,80 @@
+section#subscribe{
+    background-image: url(../../assets/subscribe-bg.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    min-height: 650px;
+    background-position: center;
+
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+}
+form{
+    width: 100%;
+    max-width: 50rem;
+    margin: 3rem auto;
+}
+
+form input{
+    padding: 1rem;
+    background: transparent !important;
+    border: 1px solid #777;
+    color: #fff;
+    outline: none;
+    width: 80%;
+}
+
+form input:focus{
+    border-color: var(--light-blue);
+}
+
+form button {
+    padding: 1rem;
+    background: var(--form-button);
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+
+.social-icon{
+    padding: 1rem;
+    border: 1px solid #8d8c8c;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3;
+}
+.social-icon:hover{
+    background: var(--light-blue);
+}
+
+
+
+@media screen and (max-width: 600px){
+    form input{
+        width: 50%;
+    }    
+
+}

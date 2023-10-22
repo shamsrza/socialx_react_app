@@ -1,0 +1,33 @@
+a{
+    font-size: 1.6rem;
+    font-weight: 300;
+    /* color: var(--color-white); */
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+a.btn{
+    /* margin-left: 1rem; */
+    font-weight: 500;
+    padding: 7px 12px;
+}
+
+a.btn-dark{
+    border: 0.2px solid var(--color-white);
+    background: transparent;
+    color: var(--color-white);
+}
+a.btn-dark:hover{
+    border: 0.2px solid orangered;
+    color: orangered;
+}
+a.btn-orange{
+    background: orangered;
+    border: 0.2px solid orangered;
+    color: var(--color-white);
+}
+
+/* a.btn-orange:hover{
+    background: transparent;
+    color: var(--color-white);
+} */
