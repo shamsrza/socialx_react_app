@@ -1,0 +1,48 @@
+#download {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 165, 255, 1) 45%,
+    rgba(1, 223, 245, 1) 100%
+  );
+  color: var(--color-white);
+  text-align: center;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.download-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.download-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid #fff;
+  width: 12rem;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  .download-icons {
+    flex-direction: column;
+  }
+
+  .download-icon {
+    width: 25rem;
+    height: 4rem;
+  }
+}

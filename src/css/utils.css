@@ -1,0 +1,39 @@
+/* Paragraph styles */
+
+.u-text-small {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.u-text-light {
+  color: var(--color-white);
+}
+
+.u-text-dark {
+  color: var(--color-dark-text);
+}
+
+/* Title style */
+
+.u-title {
+  text-align: center;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.u-title-h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.u-title p {
+  width: 50%;
+  min-width: 35rem;
+}
